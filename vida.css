@@ -1,0 +1,209 @@
+* {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #FEA996;
+    padding: 1% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .img_logo {
+    width: 7%;
+}
+
+header nav {
+    width: 33%;
+}
+
+header nav a {
+    padding: 2%;
+    margin: 2%;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    background-color: white;
+    border-radius: 47%;
+}
+
+.presentacion {
+    background-color: #0F1108;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    border-bottom: 2px solid white;
+}
+
+.presentacion img {
+    width: 33%;
+}
+
+main .presentacion div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+main .presentacion div * {
+    color: white;
+}
+
+main .sobre_mi {
+    background-color: #0F1108;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .sobre_mi * {
+    color: white;
+}
+
+main .sobre_mi .texto_sobre_mi h3 {
+    margin-top: 0;
+}
+
+main .texto_sobre_mi {
+    background-color: #FEA996;
+    padding: 1%;
+    width: 45%;
+    border-top-right-radius: 85px;
+    border-bottom-right-radius: 85px;
+}
+
+main .sobre_mi .boton_cv {
+    background-color: #B24C63;
+    padding: 1%;
+    width: 20%;
+    align-self: flex-end;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+}
+
+main .ilustracion {
+    padding-bottom: 1%;
+}
+
+main .ilustracion h3 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+main .ilustracion div {
+    display: flex;
+}
+
+main .ilustracion div img {
+    width: 80%;
+    padding: 10%;
+}
+
+main .carrusel {
+    padding-bottom: 1%;
+    background-color: #0F1108;
+}
+
+main .carrusel h3 {
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+
+main .carrusel div {
+    display: flex;
+}
+
+main .carrusel div img {
+    width: 80%;
+    padding: 10%;
+}
+
+main .carrusel .botones_carrusel {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+main .carrusel .botones_carrusel button {
+    background-color: #B24C63;
+    text-align: center;
+    border: none;
+    padding: 1%;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 0 3%;
+}
+
+main .dibujos {
+    padding-bottom: 1%;
+}
+
+main .dibujos h3 {
+    text-align: center;
+    margin-top: 3%;
+}
+
+main .dibujos div {
+    display: flex;
+}
+
+main .dibujos div img {
+    width: 80%;
+    padding: 10%;
+}
+
+main .contacto {
+    display: flex;
+}
+
+main .contacto div {
+    width: 50%;
+}
+main .contacto .contacto_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .contacto .contacto_info article {
+    padding: 2%;
+}
+
+main .contacto .contacto_info a {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+main .contacto .contacto_info a img {
+    width: 7%;
+    padding: 1%;
+}
+
+main .contacto .contacto_form * {
+    color: white;
+}
+
+main .contacto .contacto_form {
+    background-color: #0F1108;
+}
+
+footer {
+    background-color: #0F1108;
+    padding: 2%;
+}
+
+footer div {
+    color: white;
+    text-align: center;
+}
