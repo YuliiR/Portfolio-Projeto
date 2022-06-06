@@ -307,3 +307,10 @@ footer div {
         display: none;
     }    
 }
+
+@media screen and (max-width: 340px) {
+
+    main .carrusel div .carrusel_img_2 {
+        display: none;
+    }
+}
