@@ -21,12 +21,22 @@ header .img_logo {
 }
 
 header nav {
-    width: 33%;
+    width: 57%;
+    display: flex;
+    justify-content: end;
+}
+
+header div.hamburguer-menu {
+    display: none;
+}
+
+header div.hamburguer-menu img {
+    width: 11%;
 }
 
 header nav a {
     padding: 2%;
-    margin: 2%;
+    margin: 0 2%;
 }
 
 header nav a:hover {
@@ -74,7 +84,7 @@ main .sobre_mi .texto_sobre_mi h3 {
 
 main .texto_sobre_mi {
     background-color: #FEA996;
-    padding: 1%;
+    padding: 2%;
     width: 45%;
     border-top-right-radius: 85px;
     border-bottom-right-radius: 85px;
@@ -173,6 +183,7 @@ main .contacto .contacto_info {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-top: 1px solid #0F1108;
 }
 
 main .contacto .contacto_info article {
@@ -190,12 +201,41 @@ main .contacto .contacto_info a img {
     padding: 1%;
 }
 
-main .contacto .contacto_form * {
+main .contacto .contact_form * {
     color: white;
 }
 
-main .contacto .contacto_form {
+main .contacto .contact_form {
     background-color: #0F1108;
+}
+
+main .contacto .contact_form h3 {
+    text-align: center;
+}
+
+main .contacto .contact_form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 4%;
+}
+
+main .contacto .contact_form form label {
+    padding: 1%;
+}
+
+main .contacto .contact_form form input {
+    color: black;
+}
+
+main .contacto .contact_form form textarea {
+    resize: none;
+    color: black;
+}
+
+main .contacto .contact_form form .send {
+    margin-top: 1%;
+    width: 36.5%;
 }
 
 footer {
@@ -206,4 +246,64 @@ footer {
 footer div {
     color: white;
     text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    header div.hamburguer-menu {
+        display: flex;
+        justify-content: end;
+    }
+
+    header nav a {
+        display: none;
+    }
+
+    main .contacto .contact_form {
+        display: none;
+    }  
+    
+    header .img_logo {
+        width: 10%;
+    }
+
+    .presentacion img {
+        width: 230px;
+    }
+
+    main .texto_sobre_mi {
+        padding: 2% 7%;
+    }
+
+    main .sobre_mi .boton_cv {
+        padding: 1% 5%;
+    }
+
+    main .ilustracion div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .ilustracion div img {
+        width: 40%;
+    }
+
+    main .dibujos div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .dibujos div img {
+        width: 40%;
+    }
+
+    main .contacto div {
+        width: 100%;
+    }
+
+    main .carrusel div div:first-of-type {
+        display: none;
+    }    
 }

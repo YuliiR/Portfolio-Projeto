@@ -19,6 +19,9 @@
                 <a href="">Ilustrações</a>
                 <a href="#section1">Contato</a>
             </nav>
+            <div class="hamburguer-menu">
+                <img src="/img/barra-de-menu.png" alt="menu">
+            </div>
     </header>  
     <main>
         <section class="presentacion">
@@ -109,22 +112,19 @@
                 </article>               
             </div>
             
-            <div class="contacto_form">
+            <div class="contact_form">
                 <h3>Formulário</h3>
-                <table>
-                    <tr>
-                        <th>Nome</th> <td><input placeholder="Pepe" type="text"></td>
-                    </tr>
-                    <tr>
-                        <th>Telefone</th> <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <th>E-mail</th> <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                        <th>Comentário</th> <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
-                    </tr>
-                </table>
+                <form action="">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Your name">
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" placeholder="(506)12345678">
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" placeholder="youremail@gmail.com">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send" class="send">
+                </form>
             </div>
         </section>   
     </main>
