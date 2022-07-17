@@ -1,4 +1,8 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: black;
@@ -37,12 +41,15 @@ header div.hamburguer-menu img {
 header nav a {
     padding: 2%;
     margin: 0 2%;
+    text-decoration: none;
+    color: black;
 }
 
 header nav a:hover {
     font-weight: bold;
     background-color: white;
     border-radius: 47%;
+    color: black;
 }
 
 .presentacion {
@@ -76,6 +83,7 @@ main .sobre_mi {
 
 main .sobre_mi * {
     color: white;
+    text-decoration: none;
 }
 
 main .sobre_mi .texto_sobre_mi h3 {
@@ -116,6 +124,11 @@ main .ilustracion div {
 main .ilustracion div img {
     width: 80%;
     padding: 10%;
+}
+
+main .galeria {
+    width: 700px;
+    margin-left: 300px;
 }
 
 main .carrusel {
@@ -194,6 +207,8 @@ main .contacto .contacto_info a {
     display: flex;
     align-items: center;
     padding: 1%;
+    text-decoration: none;
+    color: black;
 }
 
 main .contacto .contacto_info a img {
@@ -236,6 +251,14 @@ main .contacto .contact_form form textarea {
 main .contacto .contact_form form .send {
     margin-top: 1%;
     width: 36.5%;
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red !important;
+    padding-top: 20px;
 }
 
 footer {
